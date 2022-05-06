@@ -28,6 +28,11 @@ local plugins = {
   {"junegunn/fzf"},
   {"junegunn/fzf.vim"},
   {"preservim/nerdtree"},
+   --Temas
+  {"sonph/onehalf"},
+  {"morhetz/gruvbox"},
+  {"joshdick/onedark.vim"},
+  {"altercation/vim-colors-solarized"},
 --  {"prabirshrestha/asyncomplete.vim",
   --  config = function() require("plugins.configs.asyncomplete") end,
   --},
