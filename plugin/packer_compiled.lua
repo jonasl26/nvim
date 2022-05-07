@@ -44,8 +44,8 @@ local function save_profiles(threshold)
 end
 
 time([[Luarocks path setup]], true)
-local package_path_str = "/home/jona/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?.lua;/home/jona/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?/init.lua;/home/jona/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?.lua;/home/jona/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?/init.lua"
-local install_cpath_pattern = "/home/jona/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/lua/5.1/?.so"
+local package_path_str = "/home/debian/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?.lua;/home/debian/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?/init.lua;/home/debian/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?.lua;/home/debian/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?/init.lua"
+local install_cpath_pattern = "/home/debian/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/lua/5.1/?.so"
 if not string.find(package.path, package_path_str, 1, true) then
   package.path = package.path .. ';' .. package_path_str
 end
@@ -72,107 +72,107 @@ _G.packer_plugins = {
   ale = {
     config = { "\27LJ\2\n3\0\0\3\0\2\0\0046\0\0\0'\2\1\0B\0\2\1K\0\1\0\24plugins.configs.ale\frequire\0" },
     loaded = true,
-    path = "/home/jona/.local/share/nvim/site/pack/packer/start/ale",
+    path = "/home/debian/.local/share/nvim/site/pack/packer/start/ale",
     url = "https://github.com/dense-analysis/ale"
   },
   ["cmp-nvim-lsp"] = {
     loaded = true,
-    path = "/home/jona/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
+    path = "/home/debian/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
   fzf = {
     loaded = true,
-    path = "/home/jona/.local/share/nvim/site/pack/packer/start/fzf",
+    path = "/home/debian/.local/share/nvim/site/pack/packer/start/fzf",
     url = "https://github.com/junegunn/fzf"
   },
   ["fzf.vim"] = {
     loaded = true,
-    path = "/home/jona/.local/share/nvim/site/pack/packer/start/fzf.vim",
+    path = "/home/debian/.local/share/nvim/site/pack/packer/start/fzf.vim",
     url = "https://github.com/junegunn/fzf.vim"
   },
   gruvbox = {
     loaded = true,
-    path = "/home/jona/.local/share/nvim/site/pack/packer/start/gruvbox",
+    path = "/home/debian/.local/share/nvim/site/pack/packer/start/gruvbox",
     url = "https://github.com/morhetz/gruvbox"
   },
   nerdtree = {
     loaded = true,
-    path = "/home/jona/.local/share/nvim/site/pack/packer/start/nerdtree",
+    path = "/home/debian/.local/share/nvim/site/pack/packer/start/nerdtree",
     url = "https://github.com/preservim/nerdtree"
   },
   ["nvim-cmp"] = {
     loaded = true,
-    path = "/home/jona/.local/share/nvim/site/pack/packer/start/nvim-cmp",
+    path = "/home/debian/.local/share/nvim/site/pack/packer/start/nvim-cmp",
     url = "https://github.com/hrsh7th/nvim-cmp"
   },
   ["nvim-lspconfig"] = {
     loaded = true,
-    path = "/home/jona/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
+    path = "/home/debian/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
   },
   ["omnisharp-vim"] = {
     config = { "\27LJ\2\n9\0\0\3\0\2\0\0046\0\0\0'\2\1\0B\0\2\1K\0\1\0\30plugins.configs.omnisharp\frequire\0" },
     loaded = true,
-    path = "/home/jona/.local/share/nvim/site/pack/packer/start/omnisharp-vim",
+    path = "/home/debian/.local/share/nvim/site/pack/packer/start/omnisharp-vim",
     url = "https://github.com/OmniSharp/omnisharp-vim"
   },
   ["onedark.vim"] = {
     loaded = true,
-    path = "/home/jona/.local/share/nvim/site/pack/packer/start/onedark.vim",
+    path = "/home/debian/.local/share/nvim/site/pack/packer/start/onedark.vim",
     url = "https://github.com/joshdick/onedark.vim"
   },
   onehalf = {
     loaded = true,
-    path = "/home/jona/.local/share/nvim/site/pack/packer/start/onehalf",
+    path = "/home/debian/.local/share/nvim/site/pack/packer/start/onehalf",
     url = "https://github.com/sonph/onehalf"
   },
   ["packer.nvim"] = {
     loaded = true,
-    path = "/home/jona/.local/share/nvim/site/pack/packer/start/packer.nvim",
+    path = "/home/debian/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
   },
   ["plenary.nvim"] = {
     loaded = true,
-    path = "/home/jona/.local/share/nvim/site/pack/packer/start/plenary.nvim",
+    path = "/home/debian/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
   ["telescope.nvim"] = {
     loaded = true,
-    path = "/home/jona/.local/share/nvim/site/pack/packer/start/telescope.nvim",
+    path = "/home/debian/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
   ["vim-airline"] = {
     config = { "\27LJ\2\n7\0\0\3\0\2\0\0046\0\0\0'\2\1\0B\0\2\1K\0\1\0\28plugins.configs.airline\frequire\0" },
     loaded = true,
-    path = "/home/jona/.local/share/nvim/site/pack/packer/start/vim-airline",
+    path = "/home/debian/.local/share/nvim/site/pack/packer/start/vim-airline",
     url = "https://github.com/vim-airline/vim-airline"
   },
   ["vim-airline-themes"] = {
     loaded = true,
-    path = "/home/jona/.local/share/nvim/site/pack/packer/start/vim-airline-themes",
+    path = "/home/debian/.local/share/nvim/site/pack/packer/start/vim-airline-themes",
     url = "https://github.com/vim-airline/vim-airline-themes"
   },
   ["vim-colors-solarized"] = {
     loaded = true,
-    path = "/home/jona/.local/share/nvim/site/pack/packer/start/vim-colors-solarized",
+    path = "/home/debian/.local/share/nvim/site/pack/packer/start/vim-colors-solarized",
     url = "https://github.com/altercation/vim-colors-solarized"
   },
   ["vim-devicons"] = {
     loaded = true,
-    path = "/home/jona/.local/share/nvim/site/pack/packer/start/vim-devicons",
+    path = "/home/debian/.local/share/nvim/site/pack/packer/start/vim-devicons",
     url = "https://github.com/ryanoasis/vim-devicons"
   }
 }
 
 time([[Defining packer_plugins]], false)
--- Config for: omnisharp-vim
-time([[Config for omnisharp-vim]], true)
-try_loadstring("\27LJ\2\n9\0\0\3\0\2\0\0046\0\0\0'\2\1\0B\0\2\1K\0\1\0\30plugins.configs.omnisharp\frequire\0", "config", "omnisharp-vim")
-time([[Config for omnisharp-vim]], false)
 -- Config for: ale
 time([[Config for ale]], true)
 try_loadstring("\27LJ\2\n3\0\0\3\0\2\0\0046\0\0\0'\2\1\0B\0\2\1K\0\1\0\24plugins.configs.ale\frequire\0", "config", "ale")
 time([[Config for ale]], false)
+-- Config for: omnisharp-vim
+time([[Config for omnisharp-vim]], true)
+try_loadstring("\27LJ\2\n9\0\0\3\0\2\0\0046\0\0\0'\2\1\0B\0\2\1K\0\1\0\30plugins.configs.omnisharp\frequire\0", "config", "omnisharp-vim")
+time([[Config for omnisharp-vim]], false)
 -- Config for: vim-airline
 time([[Config for vim-airline]], true)
 try_loadstring("\27LJ\2\n7\0\0\3\0\2\0\0046\0\0\0'\2\1\0B\0\2\1K\0\1\0\28plugins.configs.airline\frequire\0", "config", "vim-airline")
