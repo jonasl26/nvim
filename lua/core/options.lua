@@ -1,8 +1,13 @@
 local opt = vim.opt
 local g = vim.g
+local cmd = vim.cmd
 
 local options = require("core.utils").load_config().options
+local ui = require("core.utils").load_config().ui
+--Configura tema
+cmd('colorscheme '.. ui.theme)
 
+--Optiones
 opt.title = true
 opt.clipboard = options.clipboard
 opt.cmdheight = options.cmdheight

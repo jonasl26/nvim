@@ -90,6 +90,11 @@ _G.packer_plugins = {
     path = "/home/jona/.local/share/nvim/site/pack/packer/start/fzf.vim",
     url = "https://github.com/junegunn/fzf.vim"
   },
+  gruvbox = {
+    loaded = true,
+    path = "/home/jona/.local/share/nvim/site/pack/packer/start/gruvbox",
+    url = "https://github.com/morhetz/gruvbox"
+  },
   nerdtree = {
     loaded = true,
     path = "/home/jona/.local/share/nvim/site/pack/packer/start/nerdtree",
@@ -110,6 +115,16 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/jona/.local/share/nvim/site/pack/packer/start/omnisharp-vim",
     url = "https://github.com/OmniSharp/omnisharp-vim"
+  },
+  ["onedark.vim"] = {
+    loaded = true,
+    path = "/home/jona/.local/share/nvim/site/pack/packer/start/onedark.vim",
+    url = "https://github.com/joshdick/onedark.vim"
+  },
+  onehalf = {
+    loaded = true,
+    path = "/home/jona/.local/share/nvim/site/pack/packer/start/onehalf",
+    url = "https://github.com/sonph/onehalf"
   },
   ["packer.nvim"] = {
     loaded = true,
@@ -136,14 +151,20 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/jona/.local/share/nvim/site/pack/packer/start/vim-airline-themes",
     url = "https://github.com/vim-airline/vim-airline-themes"
+  },
+  ["vim-colors-solarized"] = {
+    loaded = true,
+    path = "/home/jona/.local/share/nvim/site/pack/packer/start/vim-colors-solarized",
+    url = "https://github.com/altercation/vim-colors-solarized"
+  },
+  ["vim-devicons"] = {
+    loaded = true,
+    path = "/home/jona/.local/share/nvim/site/pack/packer/start/vim-devicons",
+    url = "https://github.com/ryanoasis/vim-devicons"
   }
 }
 
 time([[Defining packer_plugins]], false)
--- Config for: vim-airline
-time([[Config for vim-airline]], true)
-try_loadstring("\27LJ\2\n7\0\0\3\0\2\0\0046\0\0\0'\2\1\0B\0\2\1K\0\1\0\28plugins.configs.airline\frequire\0", "config", "vim-airline")
-time([[Config for vim-airline]], false)
 -- Config for: omnisharp-vim
 time([[Config for omnisharp-vim]], true)
 try_loadstring("\27LJ\2\n9\0\0\3\0\2\0\0046\0\0\0'\2\1\0B\0\2\1K\0\1\0\30plugins.configs.omnisharp\frequire\0", "config", "omnisharp-vim")
@@ -152,6 +173,10 @@ time([[Config for omnisharp-vim]], false)
 time([[Config for ale]], true)
 try_loadstring("\27LJ\2\n3\0\0\3\0\2\0\0046\0\0\0'\2\1\0B\0\2\1K\0\1\0\24plugins.configs.ale\frequire\0", "config", "ale")
 time([[Config for ale]], false)
+-- Config for: vim-airline
+time([[Config for vim-airline]], true)
+try_loadstring("\27LJ\2\n7\0\0\3\0\2\0\0046\0\0\0'\2\1\0B\0\2\1K\0\1\0\28plugins.configs.airline\frequire\0", "config", "vim-airline")
+time([[Config for vim-airline]], false)
 if should_profile then save_profiles() end
 
 end)

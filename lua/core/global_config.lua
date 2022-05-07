@@ -23,6 +23,7 @@ G.options = {
 	shadafile = vim.opt.shadafile
  }
 
+ G.ui = {theme = "gruvbox"}
  G.plugins = {
     options = {
       packer = {

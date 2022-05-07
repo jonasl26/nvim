@@ -1,6 +1,6 @@
 local core_modules = {
 	"core.options",
-        "plugins.init",}
+        "plugins.init"}
 
 for _, module in ipairs(core_modules) do
 	local ok, err = pcall(require,module)
