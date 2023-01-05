@@ -4,7 +4,6 @@ local core_modules = {
         "colors"}
 
 for _, module in ipairs(core_modules) do
-       -- print(module)
 	local ok, err = pcall(require,module)
 	if not ok then
 		error("Error loading " .. module .. "\n\n" .. err)

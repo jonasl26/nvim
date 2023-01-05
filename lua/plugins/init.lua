@@ -12,7 +12,7 @@ local plugins = {
   --  config = function() require("plugins.configs.airline") end,
   --},
   {"nvim-lualine/lualine.nvim",
-    requires = {"kyazdani42/nvim-web-devicons", opt = true },
+--    requires = {"kyazdani42/nvim-web-devicons", opt = true },
     config = function() require("plugins.configs.lualine") end,
   },
   {"wbthomason/packer.nvim"},
@@ -32,15 +32,15 @@ local plugins = {
     config = function() require("plugins.configs.asyncomplete") end,
   },
   --Debuggin
-  {"puremourning/vimspector",
-    config = function() require("plugins.configs.vimspector") end,
-  },
+  --{"puremourning/vimspector",
+   -- config = function() require("plugins.configs.vimspector") end,
+ -- },
   --Resaltado de syntax
   {"nvim-treesitter/nvim-treesitter"},
   {"junegunn/fzf"},
   {"junegunn/fzf.vim"},
   --Manejador de Carpetas
-  --{"preservim/nerdtree"},
+  {"preservim/nerdtree"},
   {"kyazdani42/nvim-tree.lua",
     requires = {"kyazdani42/nvim-web-devicons"},
     config = function() require("plugins.configs.nvimtree") end,
@@ -64,7 +64,7 @@ local plugins = {
   {"joshdick/onedark.vim"},
   {"altercation/vim-colors-solarized"},
   --Iconos
-  --{"ryanoasis/vim-devicons"},
+--  {"ryanoasis/vim-devicons"},
   --Barra
   {"romgrk/barbar.nvim",
     requires = {"kyazdani42/nvim-web-devicons"}
