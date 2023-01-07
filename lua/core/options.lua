@@ -66,11 +66,11 @@ for _, plugin in pairs(disabled_built_ins) do
 end
 
 --Defer loading shada until after startup_
-vim.opt.shadafile = "NONE"
-vim.schedule(function()
-  vim.opt.shadafile = require("core.utils").load_config().options.shadafile
-  vim.cmd [[ silent! rsh ]]
-end)
+--vim.opt.shadafile = "NONE"
+--vim.schedule(function()
+  --vim.opt.shadafile = require("core.utils").load_config().options.shadafile
+  --vim.cmd [[ silent! rsh ]]
+--end)
 
 
 

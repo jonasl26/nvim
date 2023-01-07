@@ -1,11 +1,14 @@
 local plugin_settings =  require("core.utils").load_config().plugins
 local present, packer = pcall(require, plugin_settings.options.packer.init_file)
+local cmd = vim.cmd
 
+print(present)
 if not present then
+	print(present)
   return false
 end
 
-local override_req = require("core.utils").override_req
+--local override_req = require("core.utils").override_req
 
 local plugins = {
 --  {"vim-airline/vim-airline",
